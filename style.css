@@ -80,3 +80,124 @@ button {
     margin-top: 8px;
     font-weight: bold;
 }
+
+.infosect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.infoheader {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.infoimage {
+    border-radius: 25px;
+    border: 2px solid #3882f6;
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}
+
+.imgcontent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 150px;
+}
+
+.infoarea {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 50px;
+}
+
+.quotesect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 256px;
+    gap: 16px;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.quotetext {
+    font-size: 36px;
+    color: grey;
+    font-style: italic;
+}
+
+.quotefoot {
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.bottomsect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 256px;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.buttonarea {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 35px 32px;
+    margin-top: 8px;
+    font-weight: bold;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.bottomtext {
+    color: white;
+    font-size: 12px;
+}
+
+.buttonleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonarea .bottombutton {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 32px;
+    margin-top: 8px;
+    border: 2px solid #F9FAF9; 
+    font-weight: bold;   
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    padding: 0 256px;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    min-height: 100px;
+}
